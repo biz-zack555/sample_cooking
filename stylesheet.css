@@ -1,0 +1,144 @@
+/* Reset CSS */
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1170px;
+  /* background-color: #999999; */
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255,255,255,1.0);
+  /* margin: 20px; */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  width: 140px;
+  margin-top: 10px
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  color: #ffa700;
+
+}
+
+.header-right a:hover {
+  text-shadow: 1px 1px 0 #999999;
+}
+
+
+.top-wrapper {
+  background-image: url("images/restaurant-dinners.jpg");
+  background-size: cover;
+  /* height: 400px; */
+  padding: 200px 0 100px;
+  text-align: center;
+  color: white;
+}
+
+.top-wrapper h1 {
+  /* background-color: rgba(0,0,0,0.2); */
+  line-height: 24px;
+  opacity: 0.8;
+  text-shadow: 1px 1px 1px black;
+}
+
+.btn {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.menu-wrapper {
+  text-align: center;
+  height: 450px;
+}
+
+.heading h2 {
+  color: #ffa700;
+  border-bottom: 1px solid #ffa700;
+  padding: 12px;
+}
+
+.menus {
+  margin: 20px 0 50px;
+}
+
+.menu img {
+  height: 180px;
+}
+
+.menu {
+  /* position: relative; */
+  float: left;
+  width: 25%;
+  /* margin: 0 15px; */
+  /* box-sizing: border-box; */
+}
+
+.menu-txt {
+  color: #999999;
+  font-size: 12px;
+  text-shadow: none;
+  line-height: 14px;
+  width: 80%;
+  display: inline-block;
+}
+
+.heading a {
+  color: #ffa700;
+}
+
+.heading a:hover {
+  text-shadow: 1px 1px 0 #999999;
+}
+
+footer {
+  border-top: 1px solid #ffa700;
+  text-align: center;
+}
